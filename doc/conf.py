@@ -42,7 +42,8 @@ author = 'muthugit'
 extensions = [
     'sphinxemoji.sphinxemoji',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.autodoc'
+    'sphinx_automodapi.automodapi',
+    'sphinx.ext.autodoc',
 ]
 
 html_css_files = [
