@@ -37,11 +37,11 @@
 <span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">wraps</span>
 
 
-<div class="viewcode-block" id="ddd"><a class="viewcode-back" href="../../../helloworld.html#dagspot.solids.hello_world.ddd">[docs]</a><span class="k">def</span> <span class="nf">ddd</span><span class="p">():</span>
+<span class="k">def</span> <span class="nf">ddd</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Tees&quot;&quot;&quot;</span>
-    <span class="k">pass</span></div>
+    <span class="k">pass</span>
 
-<span class="nd">@solid</span>
+<div class="viewcode-block" id="hello_world_solid"><a class="viewcode-back" href="../../../helloworld.html#dagspot.solids.hello_world_solid">[docs]</a><span class="nd">@solid</span>
 <span class="k">def</span> <span class="nf">hello_world_solid</span><span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">dagspot_context</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;This is the hello world solid for quick try</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -49,7 +49,7 @@
     <span class="k">if</span> <span class="n">dagspot_context</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">context</span><span class="o">.</span><span class="n">log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;No Dagspot context found&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">context</span><span class="o">.</span><span class="n">log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Dagspot context found&quot;</span><span class="p">)</span>
+        <span class="n">context</span><span class="o">.</span><span class="n">log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Dagspot context found&quot;</span><span class="p">)</span></div>
 
 <span class="nd">@solid</span><span class="p">(</span>
     <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Hello2&quot;</span>
@@ -82,8 +82,13 @@
 
 
 <h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Solids</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../helloworld.html">⚙️ Helloworld</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../helloworld.html">⚙️ Hello world</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Pipelines</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../helloworld.html">⚙️ Hello world</a></li>
 </ul>
 
 <div class="relations">
